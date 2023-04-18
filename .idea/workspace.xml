@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af560e7b-f526-4687-a908-d4baa6a5e345" name="Changes" comment="Initial project structure created">
+    <list default="true" id="af560e7b-f526-4687-a908-d4baa6a5e345" name="Changes" comment="Added ability to read the excel file">
+      <change afterPath="$PROJECT_DIR$/excelDataDriven.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dataDriven.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,7 +37,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "X:/Career/Learning/API/Excel_Data_Driven"
   }
 }]]></component>
   <component name="RunManager">
@@ -78,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project structure created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial project structure created" />
+    <MESSAGE value="Added ability to read the excel file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ability to read the excel file" />
   </component>
 </project>
