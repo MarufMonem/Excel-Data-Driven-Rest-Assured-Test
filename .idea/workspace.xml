@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af560e7b-f526-4687-a908-d4baa6a5e345" name="Changes" comment="Getting all the data and modularized the code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataDriven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataDriven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSample.java" afterDir="false" />
-    </list>
+    <list default="true" id="af560e7b-f526-4687-a908-d4baa6a5e345" name="Changes" comment="handling numeric values" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681808271148</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="handling numeric values">
+      <created>1681810296543</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681810296543</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +115,7 @@
     <MESSAGE value="Get the target sheet" />
     <MESSAGE value="identifying the testcase column" />
     <MESSAGE value="Getting all the data and modularized the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting all the data and modularized the code" />
+    <MESSAGE value="handling numeric values" />
+    <option name="LAST_COMMIT_MESSAGE" value="handling numeric values" />
   </component>
 </project>
