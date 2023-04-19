@@ -1,19 +1,28 @@
+package LibraryAPI;
+
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import resources.dataDriven;
+
 import static io.restassured.RestAssured.given;
 
 public class AddBook_Excel {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+
+        dataDriven d =new dataDriven();
+        ArrayList<String> data =  d.getData("AddBook");
 
         Map<String, Object> jsonAsMap = new HashMap<>();
-        jsonAsMap.put("name", "Marufs Book 1");
-        jsonAsMap.put("isbn", "isbnn");
-        jsonAsMap.put("aisle", "98761");
-        jsonAsMap.put("author", "Maruf Monem");
+        jsonAsMap.put("name", data.get(1));
+        jsonAsMap.put("isbn", data.get(2));
+        jsonAsMap.put("aisle", data.get(3));
+        jsonAsMap.put("author", data.get(4));
 
         RestAssured.baseURI= "http://216.10.245.166";
         Response response = given().header("Content-Type", "application/json")
